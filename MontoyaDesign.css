@@ -1,0 +1,144 @@
+
+html { 
+	font: Playfair Display;
+	font-size: 1.3em;
+}
+
+h1, #developer, nav {
+	text-align: center;
+}
+#Cover-image {
+	background-color: #003767;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+#header, #developer {
+	background-color: #003767;
+	border: 2px solid black;
+	color: white;
+	font-weight: bold;
+	margin: 6px;
+	padding: 3px;
+	text-shadow: 2px 2px 0 #666;
+}
+.sidebar {
+	height: 100%;
+	width: 250px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+div {
+	border: 5px solid #00FFFF;
+	box-shadow: 5px 5px 3px #CCC;
+	margin: 15px 5px 15px 5px;
+	background-color: #659DBD;
+	padding: 3px;
+}	
+a {
+	margin-right: 5px;
+	margin-left: 5px;
+}
+body {
+	margin-left: 300px;
+}
+#menu {
+	background-color: #00FFFF;
+	border: 2px solid black;
+	text-align: center;
+
+}
+#FunFact {
+	background-color: #ADD8E6;
+	color: black;
+	font-size: 80%;
+	font-weight: bold;
+	margin: 2px;
+	padding: 7px;
+	text-shadow: 1px 1px 0 #666;
+	width: 400px;
+}
+#fact1 {
+	background-color: #99D7FF;
+	border: 1px solid black;
+	font-size: 80%;
+	display: none;
+	margin-top: 0px;
+	padding: 5px;
+	padding-right: 10px;
+	width: 500px;
+}
+#FunFact:hover + #fact1 {
+	display: block;
+}
+
+#MontoyaFam:hover, #me:hover {
+	background-color: #E2EAF0;
+}
+#facebook:hover, #youtube:hover, #instagram:hover, #twitter:hover {
+	background-color: #4EBAFF;
+}
+#bio {
+	text-indent: 5%;
+}
+h3 {
+	background-color: #5AB9EA;
+	color: black;
+	font-size: 120%;
+	margin: 4 px;
+	padding: 2 px;
+	text-shadow: 1px 1px 0 #666;
+}
+h4 {
+	background-color: #ADD8E6;
+	color: #696969;
+	font: Georgia;
+	font-size: 130%;
+	margin: 2px;
+	padding: 7px;
+	text-shadow: 1px 1px 0 #666;
+}
+figcaption {
+	background-color: #ADD8E6;
+	font: Georgia;
+	font-size: 80%;
+	font-weight: bold;
+	margin: 2px;
+	padding: 7px;
+	text-shadow: 1px 1px 0 #666;
+}
+#popupFact {
+	background-color: #ADD8E6;
+	color: black;
+	font-size: 110%;
+	font-weight: bold;
+	border: 1px solid #9575CD;
+	padding: 7px;
+	width: 400px;
+	text-shadow: 1px 1px 0 #666;
+}
+#fact {
+	background-color: #99D7FF;
+	border: 1px solid black;
+	font-size: 80%;
+	display: none;
+	margin-top: 0px;
+	padding: 5px;
+	padding-right: 10px;
+	width: 500px;
+}
+#popupFact:hover + #fact {
+	display: block;
+}
+address {
+	background-color: #7FB3D5;
+	color: black;
+	margin: 7px;
+	padding: 4px;
+	text-align: center;
+}
