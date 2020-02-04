@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="312.0" prefWidth="454.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finalproject.EditSceneController">
+   <children>
+      <Text layoutX="14.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Team's Full Information">
+         <font>
+            <Font name="System Bold Italic" size="28.0" />
+         </font>
+      </Text>
+      <GridPane layoutX="14.0" layoutY="45.0" prefHeight="210.0" prefWidth="277.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Team Name:">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Label>
+            <Label text="Coach's Name:" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Label>
+            <Label text="City:" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Label>
+            <Label text="# of players:" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Label>
+            <Label text="Age:" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Label>
+            <Label text="Wins:" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Label>
+            <Label text="Losses:" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Label>
+            <Label fx:id="teamNametxt" GridPane.columnIndex="1" />
+            <Label fx:id="coachtxt" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label fx:id="citytxt" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label fx:id="playerstxt" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label fx:id="agetxt" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Label fx:id="winstxt" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Label fx:id="lossestxt" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+         </children>
+      </GridPane>
+      <Button fx:id="doneBttn" layoutX="14.0" layoutY="267.0" mnemonicParsing="false" onAction="#doneBttnHandle" text="Done" />
+   </children>
+</AnchorPane>
